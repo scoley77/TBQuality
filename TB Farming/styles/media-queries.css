@@ -1,0 +1,178 @@
+@media (max-width: 615px) {
+  .navigation-wrapper {
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .navigation-wrapper > .left-column {
+    order: 1;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation-wrapper > .center-column {
+    order: 2;
+    width: 95%;
+  }
+
+  .navigation-wrapper > .center-column > .company-name h1 {
+    text-align: center;
+  }
+
+  .links-wrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .links-wrapper > .nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .hero-section {
+    padding: 50px 10px 10px 10px;
+  }
+
+  .services {
+    height: fit-content;
+  }
+
+  .feature {
+    height: fit-content;
+  }
+
+  .plow-img {
+    height: fit-content;
+    padding: 10px 0px;
+  }
+
+  .plow-img li {
+    font-weight: 200;
+  }
+
+  .contact-section {
+    padding: 0px 10px;
+  }
+
+  .form {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 95%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .footer > .footer-logo {
+    padding: 15px 0px;
+  }
+
+  .footer > .footer-info {
+    padding: 15px 0px;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .footer > .footer-info div {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+  .footer > .footer-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 1.2em;
+    width: 90%;
+  }
+
+  .footer > .footer-nav > .nav-link {
+    padding: 10px;
+  }
+
+  
+  .skewed-header {
+    height: 280px;
+  }
+
+  .skewed-header > .skewed-bg {
+    height: 100%;
+    
+  }
+
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    flex-direction: column;
+  }
+
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    margin-top: 75px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 0.9em;
+  }
+
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a {
+    color: #11122b;
+  }
+
+  .page-container > .content-wrapper > #attorney {
+    margin: 0px 0px 25px 0px;
+    width: 100vw;
+  }
+
+  .page-container > .content-wrapper p {
+    padding: 5px 15px;
+    margin: auto 15px;
+  }
+
+  .squares-wrapper > .squares > .square {
+    grid-template-columns: 1fr;
+  }
+
+  .squares-wrapper > .squares > .square > .square-text-wrapper {
+    order: 1;
+  }
+
+  .squares-wrapper > .squares > .square > .img-wrapper {
+    order: 2;
+  }
+
+  .contact-grid-wrapper {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .contact-grid-wrapper > .company-meta-sidebar-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-grid-wrapper > .company-meta-sidebar-wrapper > .logo-wrapper img {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .contact-grid-wrapper > .company-meta-sidebar-wrapper > .company-details i {
+    font-size: 1.5em;
+  }
+
+  .form > .form-group input {
+    padding: 20px;
+  }
+
+  .form > .form-group textarea {
+    padding: 20px;
+  }
+}
+

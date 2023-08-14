@@ -1,0 +1,29 @@
+.btn {
+  background-color: #4a3204;
+  color: #ffffff;
+  font-size: 1.25em;
+  padding: 5px 15px;
+  border: 1px solid #4a3204;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.btn:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  background-color: #c3ab30;
+}
+
+.btn:hover {
+  background-color: #c3ab30;
+  border: #c3ab30;
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+

@@ -1,0 +1,14 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #162c00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #4a3204;
+}

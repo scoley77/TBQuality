@@ -1,0 +1,71 @@
+.form > .form-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.form > .form-group input {
+  font-size: 1.3rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 20px;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 3px solid #162c00;
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+
+.form input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #c3ab30;
+}
+
+.form > .form-group textarea {
+  margin-top: 20px;
+  width: 100%;
+  height: 250px;
+  border-radius: 3px;
+  border: 3px solid #162c00;
+  font-size: 1.3rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+  color: #4a3204
+}
+
+.form textarea:focus {
+  outline: none;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+  border: 3px solid #c3ab30;
+}
+
+.form label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  color: #4a3204;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(1rem);
+  color: #162c00;
+  font-weight: 300;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}

@@ -1,0 +1,129 @@
+/* Hero Section Styles */
+.field-img {
+    background-image: url(../images/content-imgs/dan-meyers-field.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    background-color: #ffffff;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: -20px;
+    justify-items: center;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.hero-section > .tagline {
+    color: #162c00;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2em;
+    height: 50px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.hero-section > .tagline > p {
+    margin: 0;
+}
+
+.hero-section > .btn {
+    height: 75px;
+}
+
+/* Services Styles */
+
+.services {
+    background-color: #162c00;
+    padding: 20px 40px;
+    height: 400px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.services h2 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.services b {
+    font-weight: 500;
+}
+
+
+
+/* Feature Section Styles */
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: 500px;
+}
+
+.feature > .feature-left {
+    padding: 20px 40px;
+    font-size: 1.25em;
+}
+
+.feature > .feature-right {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background-images/who-s-denilo-plowed-field.jpg);
+}
+
+/* Why TB? Styles */
+
+.plow-img {
+    background-color: #4a3204;
+    background-image: url(../images/background-images/loren-king-plow.jpg);
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.plow-img > .why-TB {
+    text-align: left;
+    margin: 0px 50px;
+    color: #ffffff;
+}
+
+.plow-img > .why-TB h2 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.plow-img > .why-TB b {
+    font-weight: 500;
+}
+
+/* Other Section Styles */
+
+.pupper-img {
+    background-color: #4a3204;
+    background-image: url(../images/content-imgs/michael-barnes-dog-in-field.jpg);
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    opacity: 70%;
+}
+
+/* Contact Section Styles */
+
+.contact-section {
+    padding: 40px;
+    color: #4a3204;
+}
+
+/* Footer Styles */

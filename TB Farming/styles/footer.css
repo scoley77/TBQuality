@@ -1,0 +1,86 @@
+.footer  {
+  height: 250px;
+  background-color: #4a3204;
+  color: #ffffff;
+  /* Flexbox container */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+  justify-items: center;
+  padding: 0px;
+}
+
+/* Footer logo and information */
+
+.footer > .footer-logo {
+  padding: 0px;
+  height: 160px;
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+
+.footer > .footer-logo img {
+  height: 160px;
+  padding: 0px;
+}
+
+    
+/* Footer nav styles */
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  padding-top: 5px;
+  width: 400px;
+}
+
+.footer-nav > .nav-link {
+  text-align: center;
+  width: 70px;
+}
+
+.footer-nav > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer-nav > .nav-link a:hover {
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+/* Icon styles and copyright */
+
+.footer > .social-media-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  padding-top: 20px;
+}
+
+.footer > .social-media-wrapper a {
+  font-size: 1.5em;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.footer > .social-media-wrapper a:hover {
+  color: #ffffff;
+}
+
+.footer > .copyright {
+  padding: 0px;
+}
+
+.footer > .copyright p {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.7em;
+}

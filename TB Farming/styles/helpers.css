@@ -1,0 +1,18 @@
+/* Helper styles */
+
+.spacer60 {
+  height: 60px;
+  width: 100%;
+}
+
+.anchor-link {
+  text-decoration: none;
+}
+
+.anchor-link:focus {
+  outline: none;
+}
+
+.spacer10 {
+  height: 10px;
+}
