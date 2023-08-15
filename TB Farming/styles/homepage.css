@@ -43,7 +43,7 @@
 .services {
     background-color: #162c00;
     padding: 20px 40px;
-    height: 400px;
+    height: fit-content;
     color: #ffffff;
     font-weight: 200;
 }
@@ -65,7 +65,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
-    height: 500px;
+    height: fit-content;
 }
 
 .feature > .feature-left {
@@ -124,6 +124,19 @@
 .contact-section {
     padding: 40px;
     color: #4a3204;
+}
+
+.contact-section h2 {
+    font-weight: 300;
+}
+
+.contact-section h3 {
+    color: #162c00;
+    margin: 5px;
+}
+
+.contact-section > .phone h3 {
+    color: #162c00;
 }
 
 /* Footer Styles */
